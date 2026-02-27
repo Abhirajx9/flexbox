@@ -86,8 +86,15 @@
 
 .full {
   background-color: blue;
-  height: 100px;
+  height: 500px;
   box-shadow: inset 0 0 0 2px black;
   border: 10px solid lime;
   border-style: ridge;
+  overflow: hidden;
+}
+
+
+.fourcolumn div img {
+  height: 100%;
+  width: 100%;
 }
